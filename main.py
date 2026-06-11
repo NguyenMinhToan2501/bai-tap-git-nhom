@@ -1,3 +1,3 @@
 def tinh_thue_thu_nhap(thu_nhap):
-    # Dev B áp dụng mức thuế 10%
-    return thu_nhap *0.1
+    thu_nhap_tinh_thue = thu_nhap - 4000000
+    return max(0, thu_nhap_tinh_thue * 0.1)
